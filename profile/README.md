@@ -39,10 +39,10 @@
 - SelfNetData（自我网络状态数据）【未公开】
 - AddressTableData（寻址表数据）【未公开】
 - TreeMapData（树状拓扑数据）【未公开】
-- TagData（节点标签数据）
+- TagData（节点标签数据）【未公开】
 
 ### 组件群（外置可选项）
-> 这些是作为外部配套组件存在的程序，您可以在FasterEdge选用他们
+> 这些是作为外部配套组件存在的程序，您可以在FasterEdge选用他们，也可以单独使用
 - DontCrack进程管理器（进程可用性保证组件）【[OpenHarmony版](https://github.com/FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide)】
 - SimpleWebShell（加密WebShell）【未公开】
 
