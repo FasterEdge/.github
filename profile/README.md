@@ -10,7 +10,7 @@
 - 本项目也将不断兼容其他云边合作框架和基本设施，实现统一操作流程或作为拓展使用
 - 此体系下的算法将支持原生运行、进程管理器高可用运行、容器运行、pod监管运行等
 
-### Ability
+### 能力（Ability）
 > Ability即是当前节点具备的能力，需要以BaseAbility作为“模板约束”实现，当然用户也可以根据“模板约束”去设计任何自己想要的能力，有些Ability需要具备前提条件，前提可以为Data或Ability
 - BaseAbility（Ability模板约束）【未公开】
 - NetMapAbility（网络拓扑能力）【未公开】
@@ -34,7 +34,7 @@
 - ConfigFileAbility（配置文件管理能力）【未公开】
 - AlgorithmDistributionAbility（算法下发能力）【未公开】
 
-### Data
+### 数据（Data）
 > Data即是当前节点存储的数据，需要以BaseData作为“模板约束”实现，当然用户也可以根据“模板约束”去设计任何自己想要的数据，有些Data需要具备前提条件，前提可以为Data或Ability
 - BaseData（Data模板约束）【未公开】
 - SelfNetData（自我网络状态数据）【未公开】
