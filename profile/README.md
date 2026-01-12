@@ -32,6 +32,7 @@
 - TSNAbility（软TSN网络加速的能力）【未公开】
 - FileTransferAbility（文件传输能力）【未公开】
 - ConfigFileAbility（配置文件管理能力）【未公开】
+- AlgorithmDistributionAbility（算法下发能力）【未公开】
 
 ### Data
 > Data即是当前节点存储的数据，需要以BaseData作为“模板约束”实现，当然用户也可以根据“模板约束”去设计任何自己想要的数据，有些Data需要具备前提条件，前提可以为Data或Ability
