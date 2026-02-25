@@ -45,7 +45,7 @@
 ### 组件群（外置可选项）
 > 这些是作为外部配套组件存在的程序，您可以在FasterEdge选用他们，也可以单独使用
 - DontCrack进程管理器（进程可用性保证组件）【[OpenHarmony版](https://github.com/FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide)】
-- SimpleWebShell（加密WebShell）【未公开】
+- SimpleWebShell（加密WebShell）【[通用版](https://github.com/FasterEdge/SimpleWebShell)】
 
 ### 灵活使用
 > 此体系使用方式十分灵活，您习惯或者方便怎么做都可以，各种方式也可以顺利组合
