@@ -6,6 +6,7 @@
 <div align="center">
 <img src="../images/concept.png" style="width:96%;" width="100"/>
 </div>
+
 ### 概念
 - 这是一个灵活且对称的云边合作库，各端（当然可以不分云边）运行时可具备的Ability与Data由您指定
 - 对称性决定了系统的简单性和易于理解性，这将会方便您快速入门或投入应用，更是为了降低您评估的门槛
