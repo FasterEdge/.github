@@ -16,6 +16,7 @@
 
 ### 核心仓库
 - **[FasterEdge](https://github.com/FasterEdge/FasterEdge)**：框架主仓库，Atom / Ability / Data / Command / Transport 模型，约 135 个单测、`-race` 干净
+- **[FasterEdge/B2C](https://github.com/FasterEdge/B2C)**：超轻量物联网边缘流式分析引擎（LF Edge eKuiper 增强分支），SQL/Graph 规则、REST/CLI/K8s 管理、Golang/Python 扩展、MQTT v5 请求响应闭环
 - **[FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide](https://github.com/FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide)**：开源鸿蒙 Linux 内核侧进程管理器
 - **[FasterEdge/DontCrack4AndroidLinuxKernelSide](https://github.com/FasterEdge/DontCrack4AndroidLinuxKernelSide)**：Android adb ELF 进程管理器
 - **[FasterEdge/DontCrack4ManyLinux](https://github.com/FasterEdge/DontCrack4ManyLinux)**：通用 Linux 进程管理器（含 `/healthz` `/metrics` Prometheus 端点）
@@ -60,9 +61,15 @@
 | 名称 | 仓库 |
 |---|---|
 | **DontCrack 进程管理器**（进程可用性保证，含自动重启、健康探针、`/healthz` `/metrics` Prometheus 端点、Web UI 控制台）| [OpenHarmony 版](https://github.com/FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide) · [Android 版](https://github.com/FasterEdge/DontCrack4AndroidLinuxKernelSide) · [manylinux 版](https://github.com/FasterEdge/DontCrack4ManyLinux) · [Windows 版](https://github.com/FasterEdge/DontCrack4Windows) |
+| **MqttBroker**（轻量级 MQTT 服务，MQTT 3.1.1/5.0、QoS 0/1/2、内置 WebUI，管理端口 11883）| [MqttBroker](https://github.com/FasterEdge/MqttBroker) · [MqttBrokerCore](https://github.com/FasterEdge/MqttBrokerCore) |
 | **SimpleWebShell**（加密 WebShell）| [仓库](https://github.com/FasterEdge/SimpleWebShell) |
 | **SimpleTimeService**（轻量 NTP 时间服务）| [仓库](https://github.com/FasterEdge/SimpleTimeService) |
 | **TsnHub**（软 TSN 网络加速中枢）| [仓库](https://github.com/FasterEdge/TsnHub) |
+| **NetMap**（网络拓扑管理器，Web 前端实时渲染 FasterEdge 节点拓扑）| [仓库](https://github.com/FasterEdge/NetMap) |
+| **ProxyArea**（纯 Go 标准库 REST 兼容 HTTP 转发器）| [仓库](https://github.com/FasterEdge/ProxyArea) |
+| **ModelTranslator**（多格式模型转换工具，uv 环境 + 依赖按需拉取）| [仓库](https://github.com/FasterEdge/ModelTranslator) |
+| **ModelRunntime**（多语言多格式模型推理运行时示例集）| [仓库](https://github.com/FasterEdge/ModelRunntime) |
+| **Archs**（FasterEdge 组件平台/处理器架构兼容性说明）| [仓库](https://github.com/FasterEdge/Archs) |
 | **Example**（跨能力组合示例集合）| [仓库](https://github.com/FasterEdge/Example) |
 
 ### 灵活使用
