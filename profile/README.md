@@ -14,8 +14,12 @@
 - 本项目也将不断兼容其他云边合作框架和基本设施，实现统一操作流程或作为拓展使用
 - 此体系下的算法将支持原生运行、进程管理器高可用运行、容器运行、pod 监管运行等
 
+### 当前版本快照
+- 文档与近期 MCU / FPGA / RelayNode 工程快照：`1.0.20260831`
+- 各软件组件的运行版本以对应源码仓库中的版本常量和发布标签为准
+
 ### 核心仓库
-- **[FasterEdge](https://github.com/FasterEdge/FasterEdge)**：框架主仓库，Atom / Ability / Data / Command / Transport 模型，约 135 个单测、`-race` 干净
+- **[FasterEdge](https://github.com/FasterEdge/FasterEdge)**：框架主仓库，Atom / Ability / Data / Command / Transport 模型，完整 Go 单测覆盖，`go test ./...` 通过
 - **[FasterEdge/B2C](https://github.com/FasterEdge/B2C)**：超轻量物联网边缘流式分析引擎（LF Edge eKuiper 增强分支），SQL/Graph 规则、REST/CLI/K8s 管理、Golang/Python 扩展、MQTT v5 请求响应闭环
 - **[FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide](https://github.com/FasterEdge/DontCrack4OpenHarmonyLinuxKernelSide)**：开源鸿蒙 Linux 内核侧进程管理器
 - **[FasterEdge/DontCrack4AndroidLinuxKernelSide](https://github.com/FasterEdge/DontCrack4AndroidLinuxKernelSide)**：Android adb ELF 进程管理器
@@ -70,6 +74,9 @@
 | **ModelTranslator**（多格式模型转换工具，uv 环境 + 依赖按需拉取）| [仓库](https://github.com/FasterEdge/ModelTranslator) |
 | **ModelRunntime**（多语言多格式模型推理运行时示例集）| [仓库](https://github.com/FasterEdge/ModelRunntime) |
 | **Archs**（FasterEdge 组件平台/处理器架构兼容性说明）| [仓库](https://github.com/FasterEdge/Archs) |
+| **FasterEdgeDoctor**（本地/远程仓库和运行状态诊断，支持只读 HTTP 与 OneKey 检查）| [仓库](https://github.com/FasterEdge/FasterEdgeDoctor) |
+| **MCU / FPGA 移植**（Arduino、PlatformIO、Keil、MounRiver、Vivado、MicroBlaze、Vitis HLS 等）| [组织仓库](https://github.com/FasterEdge) |
+| **RelayNode**（SW2MQTT、SW2USB 硬件节点与 EDA 工程）| [组织仓库](https://github.com/FasterEdge) |
 | **Example**（跨能力组合示例集合）| [仓库](https://github.com/FasterEdge/Example) |
 
 ### 灵活使用
